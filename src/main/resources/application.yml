@@ -1,0 +1,28 @@
+spring:
+
+  #  security:
+  #    user:
+  #      name: admin
+  #      password: 1234
+  main:
+    allow-bean-definition-overriding: true
+#  datasource:
+#    url: jdbc:mysql://containers-us-west-142.railway.app:6702/railway
+#    username: root
+#    password: etkvfTiVjmeul0C3rQOA
+  datasource:
+    url: jdbc:mysql://localhost:3306/hrm
+    username: root
+    password:
+
+  #  datasource:
+  #    url: jdbc:mysql://containers-us-west-26.railway.app:6534/railway
+  #    username: root
+  #    password: QsdNQ4A7Cv4GQfC7GEgP
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
